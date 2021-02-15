@@ -1,5 +1,4 @@
 # Three.JS GLTF Experiment
-------------------------
 
 Just an experiment on some Three.JS stuff with GLTF file format.
 
