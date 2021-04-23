@@ -9,14 +9,14 @@ document.body.appendChild(renderer.domElement);
 const loader = new THREE.GLTFLoader();
 
 // Optional: Provide a DRACOLoader instance to decode compressed mesh data
-const dracoLoader = new THREE.DRACOLoader();
-dracoLoader.setDecoderPath('/examples/js/libs/draco/');
-loader.setDRACOLoader(dracoLoader);
+// const dracoLoader = new THREE.DRACOLoader();
+// dracoLoader.setDecoderPath('/examples/js/libs/draco/');
+// loader.setDRACOLoader(dracoLoader);
 
 // Load a glTF resource
 loader.load(
     // resource URL
-    'models/Bjorn.glb',
+    'models/nick.glb',
     // called when the resource is loaded
     function (gltf) {
         scene.add(gltf.scene);
